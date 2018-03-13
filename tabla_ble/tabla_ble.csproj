@@ -76,6 +76,12 @@
     <Compile Include="proveedoresForm.Designer.cs">
       <DependentUpon>proveedoresForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="trabajadoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trabajadoresForm.Designer.cs">
+      <DependentUpon>trabajadoresForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="clientesForm.resx">
       <DependentUpon>clientesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +96,9 @@
     </Compile>
     <EmbeddedResource Include="proveedoresForm.resx">
       <DependentUpon>proveedoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trabajadoresForm.resx">
+      <DependentUpon>trabajadoresForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="basedatos1DataSet.xsc">
       <DependentUpon>basedatos1DataSet.xsd</DependentUpon>
