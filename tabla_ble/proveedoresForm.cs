@@ -31,5 +31,10 @@ namespace tabla_ble
             this.proveedoresTableAdapter.Fill(this.basedatos1DataSet.proveedores);
 
         }
+
+        private void claveTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
